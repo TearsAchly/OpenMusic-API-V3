@@ -1,0 +1,20 @@
+{
+  "name": "openmusic-api-consumer",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "dotenv": "^10.0.0",
+    "eslint": "^9.9.0",
+    "nodemailer": "^6.9.14",
+    "pg": "^8.7.1",
+    "smtp-server": "^3.13.4",
+    "node-pg-migrate":"^6.2.1"
+  },
+  "devDependencies": {
+    "globals": "^15.9.0"
+  }
+}
